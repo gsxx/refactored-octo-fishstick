@@ -1,1 +1,2 @@
 nombre="Gabriel"
+print(nombre)
