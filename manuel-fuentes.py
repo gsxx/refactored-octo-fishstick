@@ -1,0 +1,10 @@
+nombre="manuel
+numero=3
+booleano=True
+booleano=False
+Print(numero)
+Print(3)
+edad=16
+edadParaVotar=16
+PuedeVotar=edad>=edadParaVotar
+Print("ustedPuedeVotar")
