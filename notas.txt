@@ -82,22 +82,22 @@ zoef3802
 S
 
 3ro
-alvarez - Naomin707
-arellano palomino - aylen25
-arrese - victoria2871
-contreras - Juliacontreras9
-corti rothar
-ferrea
-gimenez
-gonzalez - onabot
-iribarren - al432
-josa - Juanavjosa445
-larralde - aldana280
-leonelli - umixtz
-rofrano
-sabljak
-schauters - ioanscm
-thompson - maxupbitt3r
+alvarez - Naomin707 2 sin js
+arellano palomino - aylen25 2 repo vacio
+arrese - victoria2871 2 repo vacio
+contreras - Juliacontreras9 2 repo vacio
+corti rothar - rotharnicole 2 sin repo
+ferrea - almabelenferrea 2 sin js
+gimenez - ameliee123 2 sin js
+gonzalez - onabot 2 sin js
+iribarren - al432 A
+josa - Juanavjosa445 2 sin js
+larralde - aldana280 2 sin js
+leonelli - umixtz 2 sin js
+rofrano - isabellarofrano 2 sin js
+sabljak - mirkasabljak 2 sin js
+schauters - ioanscm 2 sin js
+thompson - maxupbitt3r 2 repo vacio
 
 5to
 ep en proceso 1
