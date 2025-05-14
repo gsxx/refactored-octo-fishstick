@@ -19,5 +19,5 @@ for elemento in lista[:]:
     print(lista[elemento],end=",")
 print("")
 
-for x in range(10):
-    print(x)
+for x in range(1,7,2):
+    print(lista[x])
