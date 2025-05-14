@@ -13,3 +13,11 @@ if igual:
 if menor:  
     print("numero1 es menor que numero2")
 
+lista = [0,1,2,3,4,5,6,7]
+for elemento in lista[:]:
+    lista[elemento]=elemento*2
+    print(lista[elemento],end=",")
+print("")
+
+for x in range(10):
+    print(x)
