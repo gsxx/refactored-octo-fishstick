@@ -4,5 +4,8 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-  "remoteUser": "node"
+"remoteUser": "node",
+"features": {
+	"ghcr.io/prulloac/devcontainer-features/lua:1": {}
+}
 }
