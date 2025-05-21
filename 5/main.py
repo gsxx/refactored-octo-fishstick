@@ -1,4 +1,4 @@
-#matiaslopez23
+
 numero1=int(input("ingrese un numero "))
 numero2=int(input("ingrese otro numero "))
 suma=(numero1 + numero2)
@@ -21,3 +21,4 @@ print("")
 
 for x in range(1,7,2):
     print(lista[x])
+    

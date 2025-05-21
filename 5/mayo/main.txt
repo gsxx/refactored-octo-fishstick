@@ -1,0 +1,2 @@
+crea un programa que siga pidiendo numeros entre el 1 y el 100 hasta que adivines el numero. como pista tiene que decir que el numero que ingresaste es mayor o menor al que tienen que adivinar.
+
