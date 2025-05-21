@@ -1,6 +1,7 @@
 if True:
     print("hola")
 numero=0
+
 booleano=True
 while booleano:
     print("ingrese un numero")
