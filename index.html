@@ -8,7 +8,13 @@
 <body>
     
     <p id="parrafo1" style="color:blue">hola</p>
-    <p style="color:#00ff2a">hola</p>
+    <p style="color:rgb(123, 255, 0)">
+        0123456789abcdef
+        rgb
+        rojo
+        verde
+        azul
+        hola</p>
     <p style="
         color:#ff00b3;
         background-color:#00ff2a;
@@ -16,12 +22,32 @@
 </body>
 <script>
 let colorP = "red";
+let nuevoParrafo = document.createElement("p");
+nuevoParrafo.textContent = "Este es un nuevo párrafo agregado desde JavaScript.";
+document.body.appendChild(nuevoParrafo);
 let elementos = document.getElementsByTagName("p");
 for (let i = 0; i < elementos.length; i++) {
     elementos[i].style.color = colorP;
 }
+function rgb(r, g, b, id) { 
+    if(r<0 || r>255 || g<0 || g>255 || b<0 || b>255){
+        r=0
+        b=0
+        g=0
+    }
+    if(r==255){
+        elementos[id].textContent = "Rojo";
+    }
+    let rojo=r
+    let verde=g
+    let azul=b
+    let coma=","
+    let colorNuevo = "rgb(" + rojo +coma+ verde +coma+ azul + ")";
+    elementos[id].style.backgroundColor = colorNuevo;
+}
 
-// Variable to change the text of a <p> tag with a specific id
+rgb(250,40,80,1)
+rgb(80,40,80,0)
 let nuevoTexto = "Texto cambiado";
 document.getElementById("parrafo1").textContent = nuevoTexto;
 </script>
