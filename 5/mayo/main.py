@@ -1,3 +1,4 @@
+#21/5
 if True:
     print("hola")
 numero=0
