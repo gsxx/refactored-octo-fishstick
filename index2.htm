@@ -22,6 +22,7 @@ let r,g,b
 r=255*(1-c)*(1-k)
 g=255*(1-m)*(1-k)
 b=255*(1-y)*(1-k)
+return "rgb("+r+","+g+","+b+")"
 }
 
 agregarElemento("argumentos","blue","#fff")
@@ -35,7 +36,7 @@ agregarElemento("segundo elemento","red","pink")
 agregarElemento("argumentos","blue","lightblue")
 agregarElemento("segundo elemento","red","pink")
 agregarElemento("argumentos","blue","lightblue")
-agregarElemento("segundo elemento","red","pink")
+let a = agregarElemento("segundo elemento","red","pink")
 
 agregarElemento(undefined)
 </script>
