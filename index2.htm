@@ -7,4 +7,36 @@
 <body>
     
 </body>
+<script>
+let variable = 1
+function agregarElemento(texto,color,fondo){
+    let crearElemento = document.createElement("h1")
+    crearElemento.innerHTML = texto
+    crearElemento.style.color = color
+    crearElemento.style.backgroundColor = fondo
+    document.body.appendChild(crearElemento)
+}
+
+function convertir_CMYK_a_RGB(c,m,y,k){
+let r,g,b
+r=255*(1-c)*(1-k)
+g=255*(1-m)*(1-k)
+b=255*(1-y)*(1-k)
+}
+
+agregarElemento("argumentos","blue","#fff")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+
+agregarElemento(undefined)
+</script>
 </html>
