@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <h1 id="titulo">Título original</h1>
+
+    <p style="color:rgb(105, 5, 5)">hola</p>
+    <p>Este es el segundo párrafo</p>
+    <p>Este es el tercer párrafo</p>
+
+    <!-- Nuevos elementos -->
+    <ul>
+        <li>Elemento de lista 1</li>
+        <li>Elemento de lista 2</li>
+        <li>Elemento de lista 3</li>
+    </ul>
+
+    <img src="https://placekitten.com/200/200" alt="Un gatito" />
+
+    <button onclick="cambiarTitulo()">Cambiar título</button>
+
+    <script>
+        let elementos = document.getElementsByTagName("p")
+        elementos[0].style.color = "yellow"
+        let verde = 130
+        let azul = 149
+        let rojo = 200
+        let coma = ","
+        let col = "rgb(" + rojo + coma + verde + coma + azul + ")"
+        elementos[0].style.backgroundColor = col
+
+        // Nuevas variables
+        let nombre = "Martin"
+        let edad = 25
+        let esEstudiante = true
+        let coloresFavoritos = ["rojo", "verde", "azul"]
+        let usuario = { nombre: "Ana", activo: false }
+        let resultado = null
+
+        function reg(rojo, verde, azul, id) {
+            let col = "rgb(" + rojo + coma + verde + coma + azul + ")"
+            elementos[id].style.backgroundColor = col
+        }
+        reg(40, 30, 120, 0)
+        reg(10, 200, 100, 1) // Segundo párrafo
+        reg(255, 255, 0, 2)  // Tercer párrafo
+
+        // Corregido: Cambiar el texto del título
+        function cambiarTitulo() {
+            let titulo = document.getElementById("titulo")
+            titulo.innerHTML = "Hola, soy Martin"
+        }
+    </script>
+</body>
+</html>
