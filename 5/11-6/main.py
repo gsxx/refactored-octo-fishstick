@@ -1,4 +1,5 @@
 from datetime import date
+
 objeto = {
     "nombre": "Gabriel",
     "edad": 23,
