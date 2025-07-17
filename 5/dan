@@ -1,0 +1,28 @@
+#clase de 11 de junio
+# 
+from datetime import datetime, date
+objeto = {
+    "nombre": "Dania",
+        "edad": 17,
+            "ciudad":"Buenos Aires",
+
+            }
+            #json
+objeto["cumple"]=date(2008,2,15)
+hoy = date.today()
+objeto["edad"] = hoy.year - objeto["cumple"].year
+print("hola",objeto["nombre"])
+
+def cumpleHoy(fechaDeHoy,fechDeNacimiento):
+    mismoMes = fechaDeHoy.month == fechDeNacimiento
+    mismoDia = fechaDeHoy.day == fechDeNacimiento.day
+    return mismoMes and mismoDia
+objeto2 = dict(nombre = "andres",edad = 21, ciudad = "buenos aires",cumple = date(2004,2,25))
+listaDeDiccionarios = [objeto,objeto2, {"nombre": "pablo",
+                                                                                                                "edad":55,
+                                                                                                                            "ciudad": "buenos aires",
+                                                                                                                                        "cumple": date(1969, 11, 24),
+                                                                                                                                                }
+                                                                                                                                                ]
+print("quien es el primer elemento?",
+                                                                                                                                                      listaDeDiccionarios[0]["nombre"])        
