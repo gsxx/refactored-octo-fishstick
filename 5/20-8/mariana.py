@@ -1,0 +1,21 @@
+##Tarea: Crea una clase `Empleado` con atributos `nombre` y `salario`. Luego, define una subclase `Gerente` que herede de `Empleado` y añada un atributo `departamento`. Implementa un método `mostrar_informacion()` en ambas clases.
+class Empleado:         
+    def __init__(self, nombre, salario):
+        self.nombre = nombre
+        self.salario = salario
+
+    def mostrar_informacion(self):
+        return f"El nombre del empleado es: {self.nombre}, y su salario es el siguiente: {self.salario}"
+    
+class Gerente(Empleado):
+    def __init__(self, nombre, salario, departamento):
+        super().__init__(nombre, salario)
+        self.departamento = departamento
+        
+    def mostrar_informacion(self):
+        return f"El nombre del gerente es: {self.nombre}, su salario es: {self.salario}, y su departamento es: {self.departamento}"
+empleado = Empleado("Marcos", 20000)
+print(empleado.mostrar_informacion())
+
+gerente = Gerente("Pablo", 50000, "Recursos Humanos")
+print(gerente.mostrar_informacion())
