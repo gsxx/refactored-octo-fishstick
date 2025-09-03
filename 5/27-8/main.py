@@ -1,6 +1,7 @@
 import math
 raiz_cuadrada = math.sqrt(144)
 entero = int(raiz_cuadrada)
+#INTEGER
 raiz_cubica = math.cbrt(entero)
 entero = int(raiz_cubica)
 #podemos hacer raices elevando un 
