@@ -1,19 +1,3 @@
-'''
-Ejercicio 1:
-Crea productos y muestra cuántos días tienen en inventario.
-
-Ejercicio 2:
-Simula ventas en diferentes fechas y analiza las compras de los últimos 30 días.
-
-Ejercicio 3:
-Identifica productos con bajo stock y productos que llevan más de 90 días en inventario.
-
-Ejercicio 4:
-Calcula salarios considerando antigüedad y días desde la última venta.
-
-Ejercicio 5:
-Genera reportes con timestamps y analiza productos por antigüedad.
-'''
 from enum import Enum
 
 class Rareza(Enum):
