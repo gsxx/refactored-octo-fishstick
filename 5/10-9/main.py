@@ -12,10 +12,7 @@ class TipoCarta(Enum):
     HECHIZOS = 3
 
 class Carta:
-    def __init__(self, nombre, daño, vida, alcance,
-                 velocidadDeAtaque, unidades,
-                 objetivo, velocidad, dañoATorres,
-                 tipo, rareza, elixir, nivel, experiencia):
+    def __init__(self, nombre, daño, vida, alcance,velocidadDeAtaque, unidades,objetivo, velocidad, dañoATorres,tipo, rareza, elixir, nivel, experiencia):
         self.nombre = nombre
         self.daño = daño
         self.vida = vida
@@ -64,7 +61,7 @@ class Mazo:
     def porcentajeDeVictorias(self):
         partidasJugadas = self.victorias + self.derrotas
         if partidasJugadas > 0:
-            porcentaje = self.victorias / total * 100
+            porcentaje = self.victorias / partidasJugadas * 100
             return porcentaje
         return 0
 
