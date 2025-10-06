@@ -4,6 +4,7 @@ class Padre{
         this.apellido=apellido
     }
 }
+
 class Madre{
     constructor(nombre){
         this.nombre=nombre
